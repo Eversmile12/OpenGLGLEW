@@ -1,0 +1,5 @@
+﻿LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glewExperimental referenced in function main
+C:\dev\_cpp\OpenGLGLEW\Dependencies\libs\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\dev\_cpp\OpenGLGLEW\x64\Debug\OpenGLGLEW.exe : fatal error LNK1120: 2 unresolved externals
